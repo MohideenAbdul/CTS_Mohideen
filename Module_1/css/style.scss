@@ -1,0 +1,68 @@
+/* Variables */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$text-color: #333;
+$bg-light: #f8f9fa;
+$font-family-base: 'Roboto', sans-serif;
+
+/* Global Styles */
+body {
+  font-family: $font-family-base;
+  background-color: $bg-light;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+/* Welcome Banner */
+#welcomeBanner {
+  background-color: $primary-color;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Event Cards */
+.event-card {
+  border: 1px solid lighten($primary-color, 30%);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+/* Form Styling */
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formOutput {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: darken($primary-color, 10%);
+  color: white;
+  padding: 1rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  #welcomeBanner {
+    font-size: 1.5rem;
+  }
+
+  .event-card {
+    padding: 1rem;
+  }
+}
