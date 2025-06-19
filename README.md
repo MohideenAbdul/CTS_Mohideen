@@ -1,2 +1,2 @@
 # CTS_Mohideen
-Containing completed modules given by CTS
+Containing modules programmed by me using Java, SQL, HTML, CSS, and Bootstrap.
